@@ -10,6 +10,6 @@ public class MySQLUserRepository implements IUserRepository{
     @Override
     public User findById(int id) {
         System.out.println("MySQL'den ID=" + id + " olan kullanıcı çekiliyor...");
-        return new User(id, "MySQL'den Gelen Ahmet"); // Sahte veri döndük
+        return new User(id, "MySQL'den Gelen Ahmet");
     }
 }
