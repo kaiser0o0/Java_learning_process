@@ -1,3 +1,3 @@
 public interface IBaseEntity {
-//tyt
+//doıshdfsdfd
 }
