@@ -15,8 +15,6 @@ public class Main {
 
         Product laptop = new Product("Laptop", 25000);
         productRepo.save(laptop);
-
-
-
+        productRepo.delete(laptop);
     }
 }

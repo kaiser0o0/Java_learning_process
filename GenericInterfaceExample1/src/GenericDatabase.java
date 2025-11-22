@@ -1,8 +1,7 @@
-public class GenericDatabase<T> implements IRepository<T> {
+public class GenericDatabase<T extends IBaseEntity> implements IRepository<T> {
 
     @Override
     public void save(T data) {
-
         System.out.println("Veritabanına Kaydedildi: " + data.toString());
     }
 

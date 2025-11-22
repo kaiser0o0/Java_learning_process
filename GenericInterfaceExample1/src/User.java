@@ -1,13 +1,12 @@
-public class User {
+public class User implements IBaseEntity {
     private int id;
     private String name;
 
-    //Constructer
+    // Constructor
     public User(int id, String name) {
         this.id = id;
         this.name = name;
     }
-
 
     @Override
     public String toString() {

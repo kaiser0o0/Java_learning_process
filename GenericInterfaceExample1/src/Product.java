@@ -1,4 +1,4 @@
-public class Product {
+public class Product implements IBaseEntity {
     private String urunAdi;
     private int fiyat;
 
